@@ -9,7 +9,7 @@ import Chips from "./Chips";
 function App(){
   return (
     <BrowserRouter>
-    <Switch>
+    <Routes>
       <Route path="/" exact>
         <Vending Machine />
       </Route>
@@ -23,7 +23,7 @@ function App(){
         <Chips />
       </Route>
 
-    </Switch>
+    </Routes>
 
     </BrowserRouter>
   );
